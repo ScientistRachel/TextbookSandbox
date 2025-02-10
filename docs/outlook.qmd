@@ -1,3 +1,11 @@
-# Summary
+---
+author: 
+  - name: Anna Kreshuk
+    orcid: 
+    affiliations:
+      - name: European Molecular Biology Laboratory
+        country: Germany
+subtitle: What can AI enable for biology?
+---
 
-In summary, this book has no content whatsoever.
+# Outlook
