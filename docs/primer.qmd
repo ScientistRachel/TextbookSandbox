@@ -1,16 +1,16 @@
 ---
 author: 
-  - name: Teng-Leong Chew
-    orcid: 0000-0002-3139-7560
+  - name: Stephan Saalfeld
+    orcid: 0000-0002-4106-1761
     affiliations:
       - name: HHMI Janelia Research Campus
         state: VA
         country: USA
         postal-code: 20147
-subtitle: AI at Every Stage of the Microscopy Workflow
+subtitle: An Introduction to Artificial Intelligence
 ---
 
-# Introduction
+# AI Primer
 <!--Your first header will be the chapter's upper-level table of contents title.-->
 <!--If you'd like to have a subtitle, include it in the Quarto header above -->
 
