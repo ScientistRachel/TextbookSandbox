@@ -32,7 +32,7 @@ To cite a research article, add it to references.bib and then refer to the citat
 
 ## Code and Equations {#sec-equation}
 
-This is an example of including a python snippet that generates a figure.
+This is an example of including a python snippet that generates a figure
 
 ```{python}
 #| label: fig-simple
@@ -41,6 +41,17 @@ import matplotlib.pyplot as plt
 plt.plot([1,23,2,4])
 plt.show()
 ```
+
+
+In some cases, you may want to include a code-block that is not executed when the book is compiled. Use the `eval: false` option for this.
+
+```{python}
+#| eval: false
+import matplotlib.pyplot as plt
+plt.plot([1,23,2,4])
+plt.show()
+```
+
 
 Figures can also be generated that do not show the code by using the option for `code-fold: true`.
 
@@ -94,7 +105,7 @@ theta = 2 * np.pi * r
 :::
 
 ::: {.callout-warning}
-Be careful to avoid LLM hallucinations.
+Be careful to avoid hallucinations.
 :::
 
 ::: {.callout-important}

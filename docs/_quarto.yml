@@ -2,8 +2,8 @@ project:
   type: book
 
 book:
-  title: "Computational BioImaging"
-  subtitle: "Artificial Intelligence for Microscopists"
+  title: "AI in Focus"
+  subtitle: "Machine Learning for BioImaging"
   downloads: "pdf"
   license: "CC-BY"
   cover-image: cover.png
@@ -13,10 +13,10 @@ book:
     - Teng-Leong Chew
   chapters:
     - index.qmd
-    - intro.qmd
+    - 1-intro.qmd
     - part: "Getting Started with AI"
       chapters:
-       - primer.qmd
+       - 2-primer.qmd
     - outlook.qmd
     - references.qmd
 
