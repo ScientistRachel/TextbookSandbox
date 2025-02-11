@@ -1,0 +1,26 @@
+---
+author: 
+  - name: Beth Cimini
+    orcid: 0000-0001-9640-9318
+    affiliations:
+      - name: Broad Institute
+        state: MA
+        country: USA
+        postal-code: 02142
+  - name: Add any co-authors as appropriate
+    orcid: 
+    affiliations:
+      - name: 
+        state: 
+        country: 
+        postal-code: 
+subtitle: optionally add a subtitle
+---
+
+# Finding and Using Existing Tools
+<!--Your first header will be the chapter's upper-level table of contents title.-->
+<!--If you'd like to have a subtitle, include it in the Quarto header above -->
+
+Under your first header, include a brief introduction to your chapter.
+
+Starting prompt for this chapter: Chapter 8 should discuss pre-existing tools that do not require programming knowledge. The chapter should start with a brief discussion of what to consider when searching for pre-trained models and software packages on sites (e.g., BioImage Model Zoo, Bioimage Informatics Index (BIII), image.sc). This should be followed by a discussion of a few specific tools (e.g., CellProfiler, Cellpose, ImageJ’s Weka Segmentation), highlighting what to look for in a tool, potential pitfalls, etc.

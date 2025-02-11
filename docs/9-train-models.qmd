@@ -1,0 +1,22 @@
+---
+author: 
+  - name: Guillaume Jacquemet
+    orcid: 0000-0002-9286-920X
+    affiliations:
+      - name: Åbo Akademi University
+        country: Finland
+  - name: Joanna Pylvänäinen 
+    orcid: 0000-0002-3540-5150
+    affiliations:
+      - name: Åbo Akademi University
+        country: Finland
+subtitle: optionally add a subtitle
+---
+
+# Training and Using Your Own Models
+<!--Your first header will be the chapter's upper-level table of contents title.-->
+<!--If you'd like to have a subtitle, include it in the Quarto header above -->
+
+Under your first header, include a brief introduction to your chapter.
+
+Starting prompt for this chapter: Chapter 9 discusses the considerations (e.g., over/under-fitting, parameter choices) for training a new model and tools to help getting started (e.g. DL4MicEverywhere). It should include a primer on cloud-based computing tools such as Docker, Google Colab, etc. to highlight the potential for training models without bespoke hardware in house. This chapter should demonstrate a walk-through of training a model for segmentation, following the throughline of the book.

@@ -7,6 +7,13 @@ author:
         state: VA
         country: USA
         postal-code: 20147
+  - name: Add any co-authors as appropriate
+    orcid: 
+    affiliations:
+      - name: 
+        state: 
+        country: 
+        postal-code: 
 subtitle: An Introduction to Artificial Intelligence
 ---
 
@@ -16,87 +23,6 @@ subtitle: An Introduction to Artificial Intelligence
 
 Under your first header, include a brief introduction to your chapter.
 
-## Include section headers as appropriate
+Starting prompt for this chapter: Chapter 2 demystifies Artificial Intelligence for microscopy users. It should define terms (e.g., machine/deep learning, supervised/unsupervised learning) without programming details such that an educated scientist without AI experience can understand how these concepts apply to microscopy in life sciences. The use-cases and strengths of different approaches for different applications should be discussed (e.g., contrasting unsupervised clustering vs supervised segmentation). This chapter should broadly introduce image restoration and segmentation, as they will be themes throughout.
 
-Use markdown heading level two for section headers. You can use standard markdown formatting, for example _emphasize the end of this sentence_.
-
-This is a new paragraph with more text. Your paragraphs can cross reference other items, such as @fig-simple. Use `fig` to reference figures, and `eq` to reference equations, such as @eq-stddev.
-
-###  Sub-subsection headers are also available
-
-To make your sections cross reference-able throughout the book, include a section reference, as shown in the header for @sec-equation.
-
-## Bibliography and Citations
-
-To cite a research article, add it to references.bib and then refer to the citation key. For example, @stringer2021 references CellPose and @von_chamier2021 references ZeroCostDL4Mic.
-
-## Code and Equations {#sec-equation}
-
-This is an example of including a python snippet that generates a figure.
-
-```{python}
-#| label: fig-simple
-#| fig-cap: "Simple Plot"
-import matplotlib.pyplot as plt
-plt.plot([1,23,2,4])
-plt.show()
-```
-
-Figures can also be generated that do not show the code by using the option for `code-fold: true`.
-
-```{python}
-#| code-fold: true
-#| label: fig-polar
-#| fig-cap: "A spiral on a polar axis"
-#| fig-alt: "A line plot on a polar axis. The line spirals out from a value of zero to a value of 2."
-
-import numpy as np
-import matplotlib.pyplot as plt
-
-r = np.arange(0, 2, 0.01)
-theta = 2 * np.pi * r
-fig, ax = plt.subplots(
-  subplot_kw = {'projection': 'polar'} 
-)
-ax.plot(theta, r)
-ax.set_rticks([0.5, 1, 1.5, 2])
-ax.grid(True)
-plt.show()
-```
-
-Here is an example equation.
-
-$$
-s = \sqrt{\frac{1}{N-1} \sum_{i=1}^N (x_i - \overline{x})^2}
-$$ {#eq-stddev}
-
-## Quarto has additional features.
-
-You can learn more about markdown options and additional Quarto features in the [Quarto documentation](https://quarto.org/docs/authoring/markdown-basics.html).  One example that you might find interesting is the option to include callouts in your text. These callouts can be used to highlight potential pitfalls or provide additional optional exercises that the reader might find helpful. Below are examples of the types of callouts available in Quarto.
-
-::: {.callout-note}
-Note that there are five types of callouts, including:
-`note`, `tip`, `warning`, `caution`, and `important`. They can default to open (like this example) or collapsed (example below).
-:::
-
-::: {.callout-tip collapse="true"}
-These could be good for extra material or exercises.
-:::
-
-::: {.callout-caution}
-There are caveats when applying these tools. Expand the code below to learn more.
-
-```{python}
-#| code-fold: true
-r = np.arange(0, 2, 0.01)
-theta = 2 * np.pi * r
-```
-:::
-
-::: {.callout-warning}
-Be careful to avoid LLM hallucinations.
-:::
-
-::: {.callout-important}
-This is key information.
-:::
+Suggestion from authors' meetings: This chapter can draw on the outlines from other chapters to introduce key topics for the following chapters.

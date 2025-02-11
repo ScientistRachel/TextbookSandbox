@@ -1,0 +1,26 @@
+---
+author: 
+  - name: Wesley Legant
+    orcid: 0000-0003-1827-5371
+    affiliations:
+      - name: University of North Carolina at Chapel Hill
+        state: NC
+        country: USA
+        postal-code: 27514
+  - name: Suliana Manley
+    orcid: 0000-0002-4755-4778
+    affiliations:
+      - name: École Polytechnique Fédérale de Lausanne
+        country: Switzerland
+subtitle: An Introduction to Smart Microscopy
+---
+
+# Adding AI to Your Hardware
+<!--Your first header will be the chapter's upper-level table of contents title.-->
+<!--If you'd like to have a subtitle, include it in the Quarto header above -->
+
+Under your first header, include a brief introduction to your chapter.
+
+Starting prompt for this chapter: Chapter 7 motivates how AI can be used to control hardware. This chapter should focus on event-driven microscopy, but other smart microscopy topics can be included at the author's discretion.
+
+Notes from the authors' meeting: This chapter does not have to be extensively technical or include code snippets to be useful to the audience. An overview of smart microscopy as a concept is useful. Even though there are limited instances of event-driven microscopy so far, discussing what those instances accomplished, and why an experiment may consider investing in their use, will benefit readers of this book.

@@ -16,6 +16,10 @@ subtitle: AI at Every Stage of the Microscopy Workflow
 
 Under your first header, include a brief introduction to your chapter.
 
+Starting prompt for this chapter: Chapter 1 outlines how AI can span experimental design, image acquisition, image processing, and analysis (without discussing what AI is from a technical perspective). This chapter will also outline the roadmap of the book which will largely focus on acquisition and processing.
+
+Topics suggested during the authors' meetings: Discuss that AI is not always solution and talk about when it is actually useful. Discuss that there are many types of microscopy images and each will have their own AI considerations (e.g., imaging modality, 2D vs 3D, static vs time lapse).
+
 ## Include section headers as appropriate
 
 Use markdown heading level two for section headers. You can use standard markdown formatting, for example _emphasize the end of this sentence_.

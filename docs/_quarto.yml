@@ -17,7 +17,19 @@ book:
     - part: "Getting Started with AI"
       chapters:
        - 2-primer.qmd
-    - outlook.qmd
+       - 3-llms.qmd
+       - 4-architectures.qmd
+    - part: "Image Acquisition"
+      chapters:
+      - 5-training-data.qmd
+      - 6-image-restoration.qmd
+      - 7-smart-microscopy.qmd
+    - part: "Image Analysis"
+      chapters:
+      - 8-existing-tools.qmd
+      - 9-train-models.qmd
+      - 10-output-quality.qmd
+    - 11-outlook.qmd
     - references.qmd
 
 bibliography: references.bib

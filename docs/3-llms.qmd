@@ -1,0 +1,24 @@
+---
+author: 
+  - name: Wei Ouyang
+    orcid: 0000-0002-0291-926X
+    affiliations:
+      - name: SciLifeLab | KTH Royal Institute of Technology
+        country: Sweden
+  - name: Add any co-authors as appropriate
+    orcid: 
+    affiliations:
+      - name: 
+        state: 
+        country: 
+        postal-code: 
+subtitle: optionally add a subtitle
+---
+
+# Promise and Pitfalls of Large Language Models
+<!--Your first header will be the chapter's upper-level table of contents title.-->
+<!--If you'd like to have a subtitle, include it in the Quarto header above -->
+
+Under your first header, include a brief introduction to your chapter.
+
+Starting prompt for this chapter: Chapter 3 addresses use-cases of large language models for microscopists. It should discuss microscopy-specific tools (e.g., Omega, BioImage.io chatbot) as well as using general tools like Chat-GPT. It should describe how to use chatbots to learn about imaging and analysis, to generate code snippets, and others, with a focus on the potential pitfalls of using these tools.

@@ -1,0 +1,26 @@
+---
+author: 
+  - name: Carsen Stringer
+    orcid: 0000-0002-9229-4100
+    affiliations:
+      - name: HHMI Janelia Research Campus
+        state: VA
+        country: USA
+        postal-code: 20147
+  - name: Add any co-authors as appropriate
+    orcid: 
+    affiliations:
+      - name: 
+        state: 
+        country: 
+        postal-code: 
+subtitle: optionally add a subtitle
+---
+
+# Architectures and Loss Models
+<!--Your first header will be the chapter's upper-level table of contents title.-->
+<!--If you'd like to have a subtitle, include it in the Quarto header above -->
+
+Under your first header, include a brief introduction to your chapter.
+
+Starting prompt for this chapter: Chapter 4 introduces architectures and loss models, defining them and providing examples through two practical case studies: image restoration and segmentation. Although this chapter will include code snippets/exercises, the presentation of essential concepts should communicate the philosophy behind the choice of a model for non-programmers.
