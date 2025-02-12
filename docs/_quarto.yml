@@ -33,6 +33,8 @@ book:
 
 bibliography: references.bib
 
+notebook-links: true
+
 format:
   html:
     theme:
@@ -40,6 +42,8 @@ format:
       - brand
   pdf:
     documentclass: scrreprt
+
+
 
 
 

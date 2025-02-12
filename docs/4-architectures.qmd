@@ -15,6 +15,10 @@ author:
         country: 
         postal-code: 
 subtitle: optionally add a subtitle
+notebook-links: true
+format:
+  html:
+    code-fold: true
 ---
 
 # Architectures and Loss Models
@@ -29,4 +33,7 @@ Starting prompt for this chapter: Chapter 4 introduces architectures and loss mo
 
 You can embed figures from other notebooks in the repo by 
 
-{{< embed ../notebooks/test.ipynb#test-fig echo-true >}}
+
+{{< embed ../notebooks/test.ipynb#fig-test-fig echo-true >}}
+
+In theory, there should be a link to the code below the figure (as well as a code drop-down) but neither is showing...
