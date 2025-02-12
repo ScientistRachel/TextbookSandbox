@@ -1,0 +1,24 @@
+---
+author: 
+  - name: Martin Weigert
+    orcid: 0000-0002-7780-9057
+    affiliations:
+      - name: École Polytechnique Fédérale de Lausanne
+        country: Switzerland
+  - name: Add any co-authors as appropriate
+    orcid: 
+    affiliations:
+      - name: 
+        state: 
+        country: 
+        postal-code: 
+subtitle: Image Collection and Considerations
+---
+
+# Training Data
+<!--Your first header will be the chapter's upper-level table of contents title.-->
+<!--If you'd like to have a subtitle, include it in the Quarto header above -->
+
+Under your first header, include a brief introduction to your chapter.
+
+Starting prompt for this chapter: Chapter 5 discusses collecting, annotating and validating training data. It should highlight potential pitfalls such as balanced data sets, out-of-distribution problems, etc. It should also address the question: how do you collect training data on your microscope? For example, this chapter should discuss collecting low/high-laser power pairs for the purpose of training an image restoration model.

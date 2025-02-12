@@ -1,0 +1,25 @@
+---
+author: 
+  - name: Anna Kreshuk
+    orcid: 
+    affiliations:
+      - name: European Molecular Biology Laboratory
+        country: Germany
+  - name: Add any co-authors as appropriate
+    orcid: 
+    affiliations:
+      - name: 
+        state: 
+        country: 
+        postal-code: 
+subtitle: What can AI enable for biology?
+---
+
+# Outlook
+
+<!--Your first header will be the chapter's upper-level table of contents title.-->
+<!--If you'd like to have a subtitle, include it in the Quarto header above -->
+
+Under your first header, include a brief introduction to your chapter.
+
+Starting prompt for this chapter: Chapter 11 concludes the book with a forward-looking assessment of AI in microscopy, focusing on how it can/will enable biological discovery. It should highlight a few motivational examples of discoveries that AI has already enabled and discuss opportunities to which the reader is primed to contribute after reading this book.

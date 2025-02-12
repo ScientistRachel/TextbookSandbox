@@ -1,0 +1,26 @@
+---
+author: 
+  - name: Min Guo
+    orcid: 0000-0002-2093-8771
+    affiliations:
+      - name: Zhejiang University
+        country: China
+  - name: Hari Shroff
+    orcid: 0000-0003-3613-8215
+    affiliations:
+      - name: HHMI Janelia Research Campus
+        state: VA
+        country: USA
+        postal-code: 20147
+subtitle: Image Restoration and Related Tools
+---
+
+# Extending Your Hardware With AI
+<!--Your first header will be the chapter's upper-level table of contents title.-->
+<!--If you'd like to have a subtitle, include it in the Quarto header above -->
+
+Under your first header, include a brief introduction to your chapter.
+
+Starting prompt for this chapter: This image restoration focused chapter motivates how AI can improve the image quality beyond hardware limitations. This chapter should include image restoration (denoising) and sensor-less AO (deep-learning-based AO); other topics can be included at the author’s discretion.
+
+Notes from the authors' meeting: This chapter can start with a broader overview of the topic, which will reference existing reviews on the topic. Then the chapter will focus on a denoising tutorial, which will include discussions of potential pitfalls and best practices.

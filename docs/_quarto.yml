@@ -2,13 +2,33 @@ project:
   type: book
 
 book:
-  title: "docs"
-  author: "Norah Jones"
-  date: "2/5/2025"
+  title: "AI in Microscopy: A BioImaging Guide"
+  downloads: "pdf"
+  license: "CC-BY"
+  cover-image: cover.png
+  editor: 
+    - Owen Puls
+    - Rachel Lee
+    - Teng-Leong Chew
   chapters:
     - index.qmd
-    - intro.qmd
-    - summary.qmd
+    - 1-intro.qmd
+    - part: "Getting Started with AI"
+      chapters:
+       - 2-primer.qmd
+       - 3-llms.qmd
+       - 4-architectures.qmd
+    - part: "Image Acquisition"
+      chapters:
+      - 5-training-data.qmd
+      - 6-image-restoration.qmd
+      - 7-smart-microscopy.qmd
+    - part: "Image Analysis"
+      chapters:
+      - 8-existing-tools.qmd
+      - 9-train-models.qmd
+      - 10-output-quality.qmd
+    - 11-outlook.qmd
     - references.qmd
 
 bibliography: references.bib

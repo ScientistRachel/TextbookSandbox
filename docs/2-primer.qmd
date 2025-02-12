@@ -1,0 +1,28 @@
+---
+author: 
+  - name: Stephan Saalfeld
+    orcid: 0000-0002-4106-1761
+    affiliations:
+      - name: HHMI Janelia Research Campus
+        state: VA
+        country: USA
+        postal-code: 20147
+  - name: Add any co-authors as appropriate
+    orcid: 
+    affiliations:
+      - name: 
+        state: 
+        country: 
+        postal-code: 
+subtitle: An Introduction to Artificial Intelligence
+---
+
+# AI Primer
+<!--Your first header will be the chapter's upper-level table of contents title.-->
+<!--If you'd like to have a subtitle, include it in the Quarto header above -->
+
+Under your first header, include a brief introduction to your chapter.
+
+Starting prompt for this chapter: Chapter 2 demystifies Artificial Intelligence for microscopy users. It should define terms (e.g., machine/deep learning, supervised/unsupervised learning) without programming details such that an educated scientist without AI experience can understand how these concepts apply to microscopy in life sciences. The use-cases and strengths of different approaches for different applications should be discussed (e.g., contrasting unsupervised clustering vs supervised segmentation). This chapter should broadly introduce image restoration and segmentation, as they will be themes throughout.
+
+Suggestion from authors' meetings: This chapter can draw on the outlines from other chapters to introduce key topics for the following chapters.
