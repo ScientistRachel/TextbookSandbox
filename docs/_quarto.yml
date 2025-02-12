@@ -2,8 +2,7 @@ project:
   type: book
 
 book:
-  title: "AI in Focus"
-  subtitle: "Machine Learning for BioImaging"
+  title: "AI in Microscopy: A BioImaging Guide"
   downloads: "pdf"
   license: "CC-BY"
   cover-image: cover.png
