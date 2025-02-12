@@ -29,6 +29,7 @@ book:
       - 9-train-models.qmd
       - 10-output-quality.qmd
     - 11-outlook.qmd
+    - glossary.qmd
     - references.qmd
 
 bibliography: references.bib
@@ -41,5 +42,7 @@ format:
   pdf:
     documentclass: scrreprt
 
-
-
+glossary:
+  path: glossary.yml
+  popup: click
+  show: true

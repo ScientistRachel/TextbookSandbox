@@ -1,0 +1,5 @@
+Hallucinations: |
+  Outputs from a model that seem reasonable but do not have a basis in the input data.
+
+Training Data: |
+  Data used to train an algorithm to make predictions.
