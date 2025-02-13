@@ -1,7 +1,7 @@
 # Glossary {.unnumbered #sec-glossary}
 
 {{< glossary table=true >}}
-The real glossary table will be generated here.
+The glossary table will be automatically generated here after we resolve formatting issues.
 
 ### Temporary Troubleshooting Table
 See https://github.com/debruine/quarto-glossary/issues/10
