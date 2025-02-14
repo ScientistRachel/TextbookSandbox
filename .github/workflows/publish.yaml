@@ -8,6 +8,9 @@ name: Quarto Publish
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash -l {0}
     permissions:
       contents: write
     steps:
@@ -18,13 +21,16 @@ jobs:
         uses: quarto-dev/quarto-actions/setup@v2
 
       - name: Install Python and Dependencies
-        uses: actions/setup-python@v2
-        with:
-          python-version: 3.12
-      - name: Install dependencies
-        run: |
-          # $CONDA is an environment variable pointing to the root of the miniconda directory
-          $CONDA/bin/conda env update --file environment.yml --name base
+        steps:
+          - uses: conda-incubator/setup-miniconda@v2
+            with:
+              channels: defaults, conda-forge
+              activate-environment: textbook
+              environment-file: environment.yml
+              auto-activate-base: false
+          - run: |
+              conda info
+              conda list
 
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
