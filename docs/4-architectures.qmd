@@ -24,3 +24,5 @@ subtitle: optionally add a subtitle
 Under your first header, include a brief introduction to your chapter.
 
 Starting prompt for this chapter: Chapter 4 introduces architectures and loss models, defining them and providing examples through two practical case studies: image restoration and segmentation. Although this chapter will include code snippets/exercises, the presentation of essential concepts should communicate the philosophy behind the choice of a model for non-programmers.
+
+

@@ -35,6 +35,8 @@ book:
 
 bibliography: references.bib
 
+notebook-links: true
+
 format:
   html:
     theme:
