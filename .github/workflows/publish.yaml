@@ -21,11 +21,12 @@ jobs:
         uses: quarto-dev/quarto-actions/setup@v2
 
       - name: Install Python and Dependencies
-        uses: conda-incubator/setup-miniconda@v2
+        uses: conda-incubator/setup-miniconda@v3
         with:
           mamba-version: "*"
           activate-environment: textbook
           environment-file: environment.yml
+          condarc-file: example-condarc.yml
           auto-activate-base: false
       - run: |
           conda info
