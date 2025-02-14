@@ -21,16 +21,15 @@ jobs:
         uses: quarto-dev/quarto-actions/setup@v2
 
       - name: Install Python and Dependencies
-        steps:
-          - uses: conda-incubator/setup-miniconda@v2
-            with:
-              channels: defaults, conda-forge
-              activate-environment: textbook
-              environment-file: environment.yml
-              auto-activate-base: false
-          - run: |
-              conda info
-              conda list
+        uses: conda-incubator/setup-miniconda@v2
+        with:
+          channels: defaults, conda-forge
+          activate-environment: textbook
+          environment-file: environment.yml
+          auto-activate-base: false
+      - run: |
+          conda info
+          conda list
 
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
