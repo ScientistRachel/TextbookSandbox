@@ -23,3 +23,4 @@ This is an outline for the material for the welcome:
 - Explain how to interact with the book. For example, explain how code snippets work for the reader, links to figures, defitions, etc.
 - State the licensing and use restrictions.
 - How to cite the book.
+- Other?
