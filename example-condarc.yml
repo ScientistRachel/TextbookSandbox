@@ -2,5 +2,6 @@
 # https://conda.io/docs/user-guide/configuration/use-condarc.html
 
 # Addressing a warning made by GitHub actions:
-conda config --add channels defaults
-conda config --add channels conda-forge
+channels:
+  - conda-forge
+  - defaults
