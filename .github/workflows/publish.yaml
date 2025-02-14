@@ -23,6 +23,7 @@ jobs:
       - name: Install Python and Dependencies
         uses: conda-incubator/setup-miniconda@v2
         with:
+          mamba-version: "*"
           activate-environment: textbook
           environment-file: environment.yml
           auto-activate-base: false
