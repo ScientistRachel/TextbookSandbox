@@ -23,7 +23,7 @@ jobs:
       - name: Install Python and Dependencies
         uses: conda-incubator/setup-miniconda@v2
         with:
-          channels: defaults, conda-forge
+          channels: conda-forge
           activate-environment: textbook
           environment-file: environment.yml
           auto-activate-base: false

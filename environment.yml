@@ -1,6 +1,5 @@
 name: textbook
 channels:
-  - defaults
   - conda-forge
 dependencies:
   - anyio=4.6.2=py312haa95532_0
