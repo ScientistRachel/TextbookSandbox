@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        shell: bash -l {0}
+        shell: bash -el {0}
     permissions:
       contents: write
     steps:
@@ -23,10 +23,10 @@ jobs:
       - name: Install Python and Dependencies
         uses: conda-incubator/setup-miniconda@v3
         with:
+          mamba-version: "*"
           activate-environment: textbook
           environment-file: environment.yml
           miniforge-version: latest
-          auto-activate-base: false
       - run: |
           conda info
           conda list
