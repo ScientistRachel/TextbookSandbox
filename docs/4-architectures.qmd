@@ -25,11 +25,4 @@ Under your first header, include a brief introduction to your chapter.
 
 Starting prompt for this chapter: Chapter 4 introduces architectures and loss models, defining them and providing examples through two practical case studies: image restoration and segmentation. Although this chapter will include code snippets/exercises, the presentation of essential concepts should communicate the philosophy behind the choice of a model for non-programmers.
 
-## Embedding Figures
 
-You can embed figures from other notebooks in the repo as shown in the following embed example.
-
-
-{{< embed ../notebooks/test.ipynb#fig-test-fig echo-true >}}
-
-When embedding notebooks, please store the .ipynb file in the notebook directory. Include the chapter in the name of your file. For example, `chapter4_example_u-net.ipynb`.  
