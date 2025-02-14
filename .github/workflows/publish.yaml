@@ -23,7 +23,7 @@ jobs:
       - name: Install Python and Dependencies
         uses: conda-incubator/setup-miniconda@v3
         with:
-          mamba-version: "*"
+          condarc-file: example-condarc.yml
           activate-environment: textbook
           environment-file: environment.yml
           miniforge-version: latest
