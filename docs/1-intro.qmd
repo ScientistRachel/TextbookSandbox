@@ -7,6 +7,9 @@ author:
         state: VA
         country: USA
         postal-code: 20147
+contributors: [
+  ""
+]
 subtitle: AI at Every Stage of the Microscopy Workflow
 ---
 
@@ -84,6 +87,15 @@ Here is an example equation.
 $$
 s = \sqrt{\frac{1}{N-1} \sum_{i=1}^N (x_i - \overline{x})^2}
 $$ {#eq-stddev}
+
+### Embedding Figures
+
+You can also embed figures from other notebooks in the repo as shown in the following embed example.
+
+
+{{< embed ../notebooks/test.ipynb#fig-test-fig echo-true >}}
+
+When embedding notebooks, please store the .ipynb file in the notebook directory. Include the chapter in the name of your file. For example, `chapter4_example_u-net.ipynb`. This is how we will handle chapter- or example-specific environments. We will host notebooks on Google Colab so that any required packages for the code--but not for rendering the book at large--will be installed there. That way, we will not need to handle a global environment across the book.
 
 ## Quarto has additional features.
 

@@ -1,22 +1,18 @@
 ---
-editors:
-  - name: Rachel Lee
-    orcid: 0000-0001-9359-0422
-    affiliations:
-      - name: HHMI Janelia Research Campus
-        state: VA
-        country: USA
-        postal-code: 20147
-  - name: Owen Puls
-    orcid: 0000-0002-5097-3420
-    affiliations:
-      - name: HHMI Janelia Research Campus
-        state: VA
-        country: USA
-        postal-code: 20147
+editors: [
+  "Teng-Leong Chew",
+  "Rachel Lee",
+  "Owen Puls"
+]
+affiliation: [
+  "HHMI Janelia Research Campus"
+]
+# doi: "tempDOI"
 format:
   html:
     toc: false
+    template-partials:
+      - settings/title-metadata.html
 ---
 
 # Welcome {.unnumbered}
@@ -26,4 +22,5 @@ This is an outline for the material for the welcome:
 - Include a very brief introduction of the book (this is not the introduction chapter).
 - Explain how to interact with the book. For example, explain how code snippets work for the reader, links to figures, defitions, etc.
 - State the licensing and use restrictions.
-- How to cite the book?
+- How to cite the book.
+- Other?
