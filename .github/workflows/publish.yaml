@@ -36,6 +36,7 @@ jobs:
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
         with:
+          activate-environment: textbook
           target: gh-pages
           path: docs
         env:
