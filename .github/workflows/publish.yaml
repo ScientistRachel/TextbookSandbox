@@ -10,7 +10,7 @@ jobs:
     runs-on: windows-latest
     defaults:
       run:
-        shell: bash -el {0}
+        shell: bash -l {0}
     permissions:
       contents: write
     steps:
@@ -26,9 +26,7 @@ jobs:
           condarc-file: example-condarc.yml
           activate-environment: textbook
           environment-file: environment.yml
-          miniforge-version: latest
-          auto-activate-base: false
-          auto-update-conda: true
+          auto-activate-base: true
       - run: |
           conda info
           conda list
@@ -38,7 +36,5 @@ jobs:
         with:
           target: gh-pages
           path: docs
-      - run: |
-          conda activate textbook
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
