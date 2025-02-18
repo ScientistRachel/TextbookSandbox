@@ -1,7 +1,6 @@
 /.quarto/
 /_book/
 /.luarc.json
-
-/_*.local
 _environment.local
+/_*.local
 ../.venv/
