@@ -329,7 +329,10 @@ window.Quarto = {
   <li><a href="#sub-subsection-headers-are-also-available" id="toc-sub-subsection-headers-are-also-available" class="nav-link" data-scroll-target="#sub-subsection-headers-are-also-available"><span class="header-section-number">1.1.1</span> Sub-subsection headers are also available</a></li>
   </ul></li>
   <li><a href="#bibliography-and-citations" id="toc-bibliography-and-citations" class="nav-link" data-scroll-target="#bibliography-and-citations"><span class="header-section-number">1.2</span> Bibliography and Citations</a></li>
-  <li><a href="#sec-equation" id="toc-sec-equation" class="nav-link" data-scroll-target="#sec-equation"><span class="header-section-number">1.3</span> Code and Equations</a></li>
+  <li><a href="#sec-equation" id="toc-sec-equation" class="nav-link" data-scroll-target="#sec-equation"><span class="header-section-number">1.3</span> Code and Equations</a>
+  <ul class="collapse">
+  <li><a href="#embedding-figures" id="toc-embedding-figures" class="nav-link" data-scroll-target="#embedding-figures"><span class="header-section-number">1.3.1</span> Embedding Figures</a></li>
+  </ul></li>
   <li><a href="#quarto-has-additional-features." id="toc-quarto-has-additional-features." class="nav-link" data-scroll-target="#quarto-has-additional-features."><span class="header-section-number">1.4</span> Quarto has additional features.</a></li>
   </ul>
 </nav>
@@ -409,7 +412,7 @@ Figure&nbsp;1.1: Simple Plot
 </div>
 </div>
 <p>In some cases, you may want to include a code-block that is not executed when the book is compiled. Use the <code>eval: false</code> option for this.</p>
-<div id="260cba49" class="cell" data-execution_count="2">
+<div id="25280056" class="cell" data-execution_count="2">
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>plt.plot([<span class="dv">1</span>,<span class="dv">23</span>,<span class="dv">2</span>,<span class="dv">4</span>])</span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -448,6 +451,27 @@ Figure&nbsp;1.2: A spiral on a polar axis
 <p><span id="eq-stddev"><span class="math display">\[
 s = \sqrt{\frac{1}{N-1} \sum_{i=1}^N (x_i - \overline{x})^2}
 \tag{1.1}\]</span></span></p>
+<section id="embedding-figures" class="level3" data-number="1.3.1">
+<h3 data-number="1.3.1" class="anchored" data-anchor-id="embedding-figures"><span class="header-section-number">1.3.1</span> Embedding Figures</h3>
+<p>You can also embed figures from other notebooks in the repo as shown in the following embed example.</p>
+<div class="quarto-embed-nb-cell" data-notebook="D:\a\TextbookSandbox\TextbookSandbox\notebooks\test.ipynb" data-notebook-cellid="cell-fig-test-fig">
+<div id="cell-fig-test-fig" class="cell" data-tags="[&quot;test-fig&quot;]" data-execution_count="2">
+<div class="cell-output cell-output-display">
+<div id="fig-test-fig" class="quarto-float quarto-figure quarto-figure-center anchored" alt="a demo figure to be embedded in a template chapter">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-test-fig-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="1-intro_files/figure-html/..-notebooks-test-fig-test-fig-output-1.png" class="img-fluid figure-img" alt="a demo figure to be embedded in a template chapter">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-test-fig-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1.3: Polar plot of circles of random areas at random coords
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<p>When embedding notebooks, please store the .ipynb file in the notebook directory. Include the chapter in the name of your file. For example, <code>chapter4_example_u-net.ipynb</code>. This is how we will handle chapter- or example-specific environments. We will host notebooks on Google Colab so that any required packages for the code–but not for rendering the book at large–will be installed there. That way, we will not need to handle a global environment across the book.</p>
+</section>
 </section>
 <section id="quarto-has-additional-features." class="level2" data-number="1.4">
 <h2 data-number="1.4" class="anchored" data-anchor-id="quarto-has-additional-features."><span class="header-section-number">1.4</span> Quarto has additional features.</h2>
@@ -492,7 +516,7 @@ Caution
 </div>
 <div class="callout-body-container callout-body">
 <p>There are caveats when applying these tools. Expand the code below to learn more.</p>
-<div id="96dbdca7" class="cell" data-execution_count="4">
+<div id="8e4fe57a" class="cell" data-execution_count="4">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>r <span class="op">=</span> np.arange(<span class="dv">0</span>, <span class="dv">2</span>, <span class="fl">0.01</span>)</span>
