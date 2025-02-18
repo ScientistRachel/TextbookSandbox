@@ -21,15 +21,11 @@ jobs:
         uses: quarto-dev/quarto-actions/setup@v2
 
       - name: Install Python and Dependencies
-        uses: conda-incubator/setup-miniconda@v3
+        uses: actions/setup-python@v5
         with:
-          condarc-file: example-condarc.yml
-          activate-environment: textbook
-          environment-file: environment.yml
-          auto-activate-base: true
-      - run: |
-          conda info
-          conda list
+          python-version: '3.12'
+          cache: 'pip'
+      - run: pip install -r requirements.txt
 
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
