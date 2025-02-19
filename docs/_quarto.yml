@@ -51,3 +51,6 @@ glossary:
   path: glossary.yml
   popup: click
   show: true
+
+  website:
+    google-analytics: "G-EE8RTR5FNP"
