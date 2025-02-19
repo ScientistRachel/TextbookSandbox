@@ -8,6 +8,7 @@ book:
   repo-url: https://github.com/ScientistRachel/TextbookSandbox
   cover-image: settings/cover.png
   favicon: settings/favicon.png
+  google-analytics: "G-EE8RTR5FNP"
   editor: 
     - Owen Puls
     - Rachel Lee
@@ -50,7 +51,4 @@ format:
 glossary:
   path: glossary.yml
   popup: click
-  show: true
-
-  website:
-    google-analytics: "G-EE8RTR5FNP"
+  show: true    
