@@ -35,7 +35,7 @@ To make your sections cross reference-able throughout the book, include a sectio
 
 ## Bibliography and Citations
 
-To cite a research article, add it to references.bib and then refer to the citation key. For example, @stringer2021 references CellPose and @von_chamier2021 references ZeroCostDL4Mic.
+To cite a research article, add it to references.bib and then refer to the citation key. For example, reference @stringer2021 refers to CellPose and reference @von_chamier2021 refers to ZeroCostDL4Mic.
 
 ## Code and Equations {#sec-equation}
 

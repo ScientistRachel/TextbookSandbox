@@ -35,6 +35,7 @@ book:
     - references.qmd
 
 bibliography: references.bib
+csl: nature.csl
 
 notebook-links: true
 
