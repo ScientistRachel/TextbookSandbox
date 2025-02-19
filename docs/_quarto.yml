@@ -6,8 +6,8 @@ book:
   downloads: "pdf"
   license: "BSD-3"
   repo-url: https://github.com/ScientistRachel/TextbookSandbox
-  cover-image: cover.png
-  favicon: favicon.png
+  cover-image: settings/cover.png
+  favicon: settings/favicon.png
   editor: 
     - Owen Puls
     - Rachel Lee
@@ -35,7 +35,7 @@ book:
     - references.qmd
 
 bibliography: references.bib
-csl: nature.csl
+csl: settings/nature.csl
 
 notebook-links: true
 
