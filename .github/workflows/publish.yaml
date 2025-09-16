@@ -40,6 +40,8 @@ jobs:
           packages: |
             any::tinytex
             any::yaml
+            any::rmarkdown
+            any::knitr
 
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
