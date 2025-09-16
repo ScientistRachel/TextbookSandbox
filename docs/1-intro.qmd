@@ -7,12 +7,17 @@ author:
         state: VA
         country: USA
         postal-code: 20147
+contributors: [
+  ""
+]
 subtitle: AI at Every Stage of the Microscopy Workflow
 ---
 
 # Introduction
 <!--Your first header will be the chapter's upper-level table of contents title.-->
 <!--If you'd like to have a subtitle, include it in the Quarto header above -->
+
+**TESTING TO CHECK BUILD w/ python 3.12.9**
 
 Under your first header, include a brief introduction to your chapter.
 
@@ -32,7 +37,12 @@ To make your sections cross reference-able throughout the book, include a sectio
 
 ## Bibliography and Citations
 
-To cite a research article, add it to references.bib and then refer to the citation key. For example, @stringer2021 references CellPose and @von_chamier2021 references ZeroCostDL4Mic.
+=======
+To cite a research article, add it to references.bib and then refer to the citation key. For example, reference @stringer2021 refers to CellPose and reference @von_chamier2021 refers to ZeroCostDL4Mic.
+
+## Adding to the Glossary
+
+We are using the extension [Quarto-glossary](https://debruine.github.io/quarto-glossary/#styles) to create a glossary for this book. To add a definition, edit the glossary.yml file. To reference the glossary, enclose the word as in these examples: LLMs suffer from {{< glossary hallucinations >}}. It is important to understand the underlying {{< glossary "training data" >}} to interpret your results. Clicking on the word will reveal its definition. The complete glossary for the book will be listed in the [Glossary](glossary.qmd).
 
 ## Code and Equations {#sec-equation}
 
@@ -84,6 +94,15 @@ Here is an example equation.
 $$
 s = \sqrt{\frac{1}{N-1} \sum_{i=1}^N (x_i - \overline{x})^2}
 $$ {#eq-stddev}
+
+### Embedding Figures
+
+You can also embed figures from other notebooks in the repo as shown in the following embed example.
+
+
+{{< embed ../notebooks/test.ipynb#fig-test-fig echo-true >}}
+
+When embedding notebooks, please store the .ipynb file in the notebook directory. Include the chapter in the name of your file. For example, `chapter4_example_u-net.ipynb`. This is how we will handle chapter- or example-specific environments. We will host notebooks on Google Colab so that any required packages for the code--but not for rendering the book at large--will be installed there. That way, we will not need to handle a global environment across the book.
 
 ## Quarto has additional features.
 
