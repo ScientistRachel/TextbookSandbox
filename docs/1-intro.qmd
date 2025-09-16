@@ -17,6 +17,8 @@ subtitle: AI at Every Stage of the Microscopy Workflow
 <!--Your first header will be the chapter's upper-level table of contents title.-->
 <!--If you'd like to have a subtitle, include it in the Quarto header above -->
 
+**TESTING TO CHECK BUILD w/ python 3.12.9**
+
 Under your first header, include a brief introduction to your chapter.
 
 Starting prompt for this chapter: Chapter 1 outlines how AI can span experimental design, image acquisition, image processing, and analysis (without discussing what AI is from a technical perspective). This chapter will also outline the roadmap of the book which will largely focus on acquisition and processing.
