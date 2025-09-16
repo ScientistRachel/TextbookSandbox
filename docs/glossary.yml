@@ -1,5 +1,12 @@
 Hallucinations: |
   Outputs from a model that do not have a basis in the input data and may contain false or misleading information.
-
+  
 Training Data: |
   Data used to train an algorithm to make predictions.
+  
+False Positive: |
+  A result which incorrectly indicates that an attribute is present.
+  
+Power: |
+  Under your first header, include a brief introduction to your chapter. 
+  
